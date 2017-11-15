@@ -72,13 +72,14 @@ body {
 }
 
 #categories {
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   text-align: left;
   height: 300px;
   width: 1200px;
 }
 
 #categories .container {
+  margin: auto;
   display: flex;
   height: 75%;
   justify-content: space-between;
