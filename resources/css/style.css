@@ -1,0 +1,141 @@
+/* Color Palette
+Creosote: #2E323C
+Slate: #2B4251
+Currant: #45415E
+Rain: #5B7D87
+Dew: #91B3BC
+*/
+
+header {
+  height: 69px;
+  width: 100%;
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 2px solid #91B3BC;
+  position: fixed;
+  z-index: 10;
+  margin: 0px;
+  top: 0px;
+  background-color: #2B4251;
+}
+
+header img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+a {
+  font-family: Courier;
+  font-size: 18px;
+  color: #91B3BC;
+}
+
+body {
+  position: relative;
+  margin: 0px auto;
+  top: 70px;
+  background-color: #5B7D87;
+  font-family: Courier;
+  font-size: 20px;
+  color: #91B3BC;
+
+  opacity: 0.9;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+.main-container {
+  background-color: #2E323C;
+  margin: 0px auto;
+  height: 100%;
+}
+
+#slider {
+  /*background-image: url("img-mission-background.jpg");*/
+  margin: 20px 50px;
+  background-color: #45415E;
+  border: 3px solid #91B3BC;
+  height: 500px;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#categories {
+  margin: 0 auto;
+  text-align: left;
+  height: 300px;
+  width: 1200px;
+}
+
+#categories .container {
+  display: flex;
+  height: 75%;
+  justify-content: space-between;
+  border: 2px dashed #91B3BC;
+}
+
+#categories .box {
+  /*border: 2px dashed #91B3BC;*/
+}
+
+/*
+#teamonth .teatypes-top {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#teamonth .teatypes-bottom {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#teamonth .box {
+  min-width: 300px;
+  min-height: 200px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#teamonth .box img {
+  max-width: 300px;
+  max-height: 200px;
+}
+
+#teamonth .box h4 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+*/
+
+footer {
+  width: 100%;
+  border-top: 2px solid #91B3BC;
+  background-color: #2B4251;
+  text-align: left;
+  font-size: 18px;
+}
+
+footer h3 {
+  margin-left: 30px;
+}
+
+footer ul {
+  list-style: none;
+}
