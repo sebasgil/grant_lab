@@ -57,6 +57,7 @@ body {
   background-color: #2E323C;
   margin: 0px auto;
   height: 100%;
+  width: 1200px;
 }
 
 #slider {
@@ -90,40 +91,14 @@ body {
   /*border: 2px dashed #91B3BC;*/
 }
 
-/*
-#teamonth .teatypes-top {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+#publications {
+  text-align: left;
+  font-size: 0.9rem;
 }
 
-#teamonth .teatypes-bottom {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+#publications li {
+  padding: 0.25rem;
 }
-
-#teamonth .box {
-  min-width: 300px;
-  min-height: 200px;
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-#teamonth .box img {
-  max-width: 300px;
-  max-height: 200px;
-}
-
-#teamonth .box h4 {
-  margin-top: 10px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-}
-*/
 
 footer {
   width: 100%;
